@@ -48,7 +48,7 @@ randomNumber = random.randint(10000,99999)
 dirname = os.path.dirname(__file__)
 text_file_path = os.path.join(dirname, 'namesforreddit.txt')
 text_file = open(text_file_path, "a")
-text_file.write("USR: " + name + str(randomNumber) + " PWD: " + password) #OUTPUTS NAME AND NUMBER
+text_file.write('{"username": "'+ name + str(randomNumber) +'","password": "' +password+'"},') #OUTPUTS NAME AND NUMBER
 text_file.write("\n")
 text_file.close()
 
