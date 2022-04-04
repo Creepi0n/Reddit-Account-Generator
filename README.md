@@ -17,6 +17,6 @@
 
  Tor Browser => https://www.torproject.org/download/
 
- File named "namesforreddit.txt"
+ File named "accounts.txt"
 
  Google Chrome => https://www.google.com/intl/en/chrome/
