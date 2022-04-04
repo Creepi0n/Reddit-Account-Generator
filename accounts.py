@@ -13,6 +13,9 @@ import string
 import secrets
 import os
 from selenium.webdriver.chrome.options import Options
+
+EMAIL = 'example@example.com'
+
 tor_proxy = "127.0.0.1:9150"
 
 chrome_options = Options()
@@ -46,7 +49,7 @@ name = name[:random.randint(5,7)] #KEEPS 5 TO 7 LETTERS OF THE ORIGINAL STRING
 randomNumber = random.randint(10000,99999)
 
 dirname = os.path.dirname(__file__)
-text_file_path = os.path.join(dirname, 'namesforreddit.txt')
+text_file_path = os.path.join(dirname, 'accounts.txt')
 text_file = open(text_file_path, "a")
 text_file.write('{"username": "'+ name + str(randomNumber) +'","password": "' +password+'"},') #OUTPUTS NAME AND NUMBER
 text_file.write("\n")
@@ -58,7 +61,7 @@ time.sleep(1)
 
 # REDDIT ACCOUNT CREATION
 driver.get('https://www.reddit.com/register/')
-driver.find_element(By.ID, 'regEmail').send_keys('mail@mail.mail')
+driver.find_element(By.ID, 'regEmail').send_keys(EMAIL)
 time.sleep(1)
 driver.find_element(By.XPATH, "//button[contains(text(),'Continue')]").click()
 time.sleep(3)
