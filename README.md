@@ -20,3 +20,7 @@
  File named "accounts.txt"
 
  Google Chrome => https://www.google.com/intl/en/chrome/
+
+**TROUBLESHOOTING**
+
+Wenn er 'Continue' nicht findet, in Zeile 66 'Continue' zu 'Fortsetzen' ändern!
