@@ -26,3 +26,5 @@
 **TROUBLESHOOTING**
 
 Wenn er 'Continue' nicht findet, in Zeile 66 'Continue' zu 'Fortsetzen' ändern!
+
+Reddit does not allow you to register an account? Click the "New Identity"-Button in Tor!
