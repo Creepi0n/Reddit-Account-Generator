@@ -65,6 +65,6 @@ time.sleep(3)
 driver.find_element(By.ID, 'regUsername').send_keys(finalName)
 driver.find_element(By.ID, 'regPassword').send_keys(password)
 
-WebDriverWait(driver, 40).until(EC.visibility_of_element_located((By.CLASS_NAME, "recaptcha-checkbox-checkmark")))
-
+exit()
+#So the Script will end and you can restart it.
 # driver.close()
