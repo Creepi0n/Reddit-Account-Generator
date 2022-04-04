@@ -24,7 +24,7 @@ chrome_options = Options()
 chrome_options.add_argument('--ignore-certificate-errors')
 '''chrome_options.add_argument('--disable-extensions')'''
 chrome_options.add_argument('disable-infobars')
-'''chrome_options.add_argument("--incognito")'''
+chrome_options.add_argument("--incognito")
 chrome_options.add_argument('--user-data=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data\\Default')
 chrome_options.add_argument('--proxy-server=socks5://%s' % tor_proxy)
 driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=chrome_options)
