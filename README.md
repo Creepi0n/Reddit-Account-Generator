@@ -1,4 +1,4 @@
-# Reddit Account Generator
+# Reddit Account Generator with Tor Proxy
  **WHAT IS IT?**
  
  This is a semi-automatic Reddit account generator. I'm saying "semi-automatic" because it still requires a Google Captcha to be completed at the end of the creation process.
