@@ -6,7 +6,7 @@
  **HOW DO USE?**
 
   1. Start Tor Browser and Connect.
-  2. Change EMAIL in accounts.py to your email. #If you use GMAIL, you can add dots to make infinite accounts for one mail. Example: Instead of example@gmail.com, use    ex.ample@gmail.com
+  2. Change EMAIL in accounts.py to your email. #If you use GMAIL, you can add dots to make infinite accounts for one mail. Example: Instead of example@gmail.com, use    ex.ample@gmail.com. ex.ample@gmail.com will work for infinite accounts!
  3. Start accounts.py.
  4. Solve Captcha and Register. 
  5. Success!
